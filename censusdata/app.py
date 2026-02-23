@@ -99,7 +99,7 @@ st.metric("Potential Lost Tax ( in USD )", round(lost_tax, 2))
 
 
 # ---------- Policy Report ----------
-st.subheader("Policy Report: Tax Compliance Analysis")
+st.header("Policy Report: Tax Compliance Analysis")
 
 st.markdown("""
 ### Overview
@@ -135,5 +135,6 @@ The data can help policymakers evaluate whether the current taxable income thres
 
 This analysis helps identify gaps in tax compliance and provides useful insights that can assist the government in improving tax collection and strengthening financial planning.
 """)
+
 
 
