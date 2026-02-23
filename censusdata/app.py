@@ -1,5 +1,4 @@
 import streamlit as st
-import mysql.connector
 import pandas as pd
 st.markdown("""
 <style>
@@ -39,16 +38,7 @@ div[data-testid="stExpander"] {
 st.title("Financial Department Tax Report")
 
 # MySQL connection
-conn = mysql.connector.connect(
-    host="localhost",
-    user="root",
-    password="akshit_18",
-    database="taxdb"
-)
-
-# Load data
-query = "SELECT Income, Tax_Filing_Status FROM census"
-df = pd.read_sql(query, conn)
+df = pd.read_excel("census.csv.xlsx")
 
 # ---------- Section 1 ----------
 st.subheader("Income and Tax Filing Data")
@@ -130,3 +120,4 @@ The data can help policymakers evaluate whether the current taxable income thres
 
 This analysis helps identify gaps in tax compliance and provides useful insights that can assist the government in improving tax collection and strengthening financial planning.
 """)
+
