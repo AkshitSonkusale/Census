@@ -294,8 +294,6 @@ The taxable income threshold can be evaluated and adjusted if required.
 
 This project demonstrates how data analysis can be used to identify tax compliance issues and estimate potential tax revenue loss.
 
-The system provides a simple and effective tool that can help financial departments improve tax collection and policy planning.
-
 ---
 
 ## ->
