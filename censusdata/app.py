@@ -95,7 +95,7 @@ st.subheader("Lost Revenue Estimate")
 lost_income = result['Income'].sum()
 lost_tax = lost_income * 0.10
 
-st.metric("Potential Lost Tax", round(lost_tax, 2))
+st.metric("Potential Lost Tax ( in USD )", round(lost_tax, 2))
 
 
 # ---------- Policy Report ----------
@@ -135,4 +135,5 @@ The data can help policymakers evaluate whether the current taxable income thres
 
 This analysis helps identify gaps in tax compliance and provides useful insights that can assist the government in improving tax collection and strengthening financial planning.
 """)
+
 
