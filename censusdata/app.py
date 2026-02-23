@@ -43,7 +43,7 @@ st.title("Financial Department Tax Report")
 
 
 # ---------- Load Dataset (Cloud Version) ----------
-df = pd.read_excel("census.csv.xlsx")
+df = pd.read_excel("censusdata/census.csv.xlsx")
 
 
 # ---------- Section 1 ----------
@@ -135,3 +135,4 @@ The data can help policymakers evaluate whether the current taxable income thres
 
 This analysis helps identify gaps in tax compliance and provides useful insights that can assist the government in improving tax collection and strengthening financial planning.
 """)
+
